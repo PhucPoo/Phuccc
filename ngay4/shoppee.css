@@ -1,0 +1,153 @@
+body{
+
+}
+.container{
+    
+}
+.bundle{
+    display: flex;
+    max-width: 1150px;
+}
+.content_left{
+    padding-right: 25px;
+}
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.carousel-item {
+    min-width: 20%; /* Adjust width as per number of items */
+    transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carousel-btn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.carousel-btn:hover {
+    background-color: #555;
+}
+.main_content{
+    display: flex;
+}
+.rating-section {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #555;
+}
+
+.rating-section .rating-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6f47;
+}
+
+.rating-section .stars {
+    display: flex;
+    position: relative;
+    margin-left: 8px;
+}
+
+.stars::before {
+    content: "★★★★★";
+    color: #ddd; /* Color for unfilled stars */
+    letter-spacing: 2px;
+}
+
+.stars::after {
+    content: "★★★★★";
+    color: #ff6f47; /* Color for filled stars */
+    letter-spacing: 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(90%); /* 90% width represents 4.5 stars */
+    overflow: hidden;
+}
+
+.rating-section .review-count {
+    margin-left: 12px;
+    color: #666;
+}
+
+.rating-section .review-count span {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rating-section .report {
+    margin-left: auto;
+    color: #999;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.rating-section .report:hover {
+    text-decoration: underline;
+}
+.main_top{
+    background-color: aliceblue;
+    display: flex;
+    margin: 21px auto;
+}
+.mid_main{
+    display: flex;
+    margin: 20px auto;
+}
+.color-options{
+    display: flex;
+    margin-right: 40px;
+    gap: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.Size-options{
+    display: flex;
+    flex:row;
+    margin-right: 40px;
+    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+.border{
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    border: #555 solid 1px;
+}

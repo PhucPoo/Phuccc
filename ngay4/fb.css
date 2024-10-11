@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdfd;
+}
+.signup-container {
+    background-color: #f6f3f37b;
+    padding: 40px;
+    border-radius: 8px;
+    width: 480px;
+}
+.logo {
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: blue;
+    text-align: center;
+}
+
+.form-wrapper {
+    background-color: #fffffffc;
+    padding:20px;
+    border-radius: 8px;
+    width: 400px;
+}
+
+.form-title, .form-description{
+    display: block;
+    text-align: center;
+}
+.form-header p {
+    font-size: 14px;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+.form-content .form-group {
+    margin-bottom: 15px;
+}
+
+.full-name {
+    display: flex;
+    gap: 10px;
+}
+.form-content input, 
+.form-content select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.form-content input[type="text"], 
+.form-content input[type="email"], 
+.form-content input[type="password"] {
+    margin-bottom: 10px;
+}
+
+.form-content input[type="date"], 
+.form-content select {
+    margin-top: 5px;
+}
+
+.signup-button {
+    display: block;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 175px;
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.signup-button:hover {
+    background-color: #36a420;
+}
+
+input, select{
+    padding: 0;
+    height: 35px;
+    padding-left: 10px;
+}
+.form-birth_day > select {
+    width: 100%;
+    min-height: 35px;
+}
